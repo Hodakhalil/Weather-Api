@@ -1,0 +1,117 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+.main-color{
+
+    background-color: #1E202B; 
+}
+
+.second-color{
+
+    background-color: #262936;
+}
+
+
+#search{
+    position: relative;
+}
+
+
+
+#find{
+
+position: absolute;
+right: 150px;
+top: 130px;
+padding: 5px 20px;
+
+
+}
+
+.home{
+
+ background-image: url(../images/banner.png);
+background-position: center center; 
+background-size: cover;
+
+min-height: 350PX;
+
+
+
+
+}
+
+
+::placeholder{
+
+
+    color: aliceblue;
+}
+
+ #input_find , #footer ,#input-location {
+    width: 100%;
+    padding-block:19px;
+    border-radius: 33px;
+    background-color:#1E202B ;
+    color: white;
+    border: none;
+    border: none;
+    outline: none;
+    padding-inline: 17px;
+}
+ #search , #footer ,#suscribe {
+    position: absolute;
+    top:45%;
+    right:50px;
+    transform: translateY(-50%);
+   
+    color: white !important;
+    border:none;
+    padding-inline:30px;
+    padding-block: 8px;
+    border-radius: 33px;
+    font-size: 22px;
+}
+
+
+.item{
+
+height: 300px;
+
+}
+
+.card-color{
+background-color: #323544e1 !important;
+color: white;
+
+}
+.card-tit{
+    background-color: #2D303D;
+    color: white;
+}
+.middle-card{
+background-color: #262936e9;
+color: white;
+
+}
+.middle-card-tit{
+background-color: #262936;
+color: white;
+
+}
+
+.text{
+
+    color: slateblue;
+}
+.active{
+
+
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 8 
+}

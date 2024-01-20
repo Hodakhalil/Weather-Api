@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <!-- ----------------font-awsome-------------- -->
+<link rel="stylesheet" href="./css/all.min.css">
+<!-- ----------------bootstrap------------- -->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+
+<!-- --------------css----------------- -->
+<link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body class="main-color">
+
+  <!-- ---------------nav--------------- -->
+<nav class="navbar navbar-expand-lg  navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img  class="w-50"   src="./images/logo@2x.png" alt=""> Weather</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-4  ">
+        <li class="nav-item ">
+       <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        
+         <li class="nav-item">
+          <a class="nav-link" href="#">Live Camers</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Photo</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+<!-- ---------------main-cards--------------- -->
+
+<div class="home">
+<div class="container">
+
+<div class=" m-auto position-relative p-5">
+          <input
+            type="text"
+            placeholder="Find your location ..."
+            id="input_find"
+          />
+          <input type="button" value="Find" id="search" class="btn btn-danger" />
+        </div>
+
+</div>
+<div class="container pt-3 ">
+<!-- ---------------input----------------- -->
+
+
+<div class="row g-0    ">
+<div class="col-md-4    ">
+
+<div class="weather-today">
+<div class=" card-tit  d-flex justify-content-between py-2 px-3 rounded-start" id="today-date">
+<p id="today-date-name">Sunday</p>
+<span>
+<span id="today-day-number"> 13</span>
+<span  id="today-day-month" >Janury</span>
+
+
+
+</span>
+
+
+  </div>
+
+  <div class="text-date card-color p-3 item rounded-start  ">
+<p  id="today-location" class="fs-3">Cairo</p>
+<div class=" d-flex  justify-content-between align-items-center">
+
+<span class="fs-1 fw-bolder">
+<span id="today-temp">17</span>
+<span><sup>o</sup>c</span>
+</span>
+
+<img  id="todat-condation-img" class="mx-3" src="./images/176.png" alt="" >
+
+</div>
+
+<p id="today-condation-text" class="mx-2  text">sunny</p>
+
+
+<div class="footer-item d-flex pt-5">
+  <div class="d-flex me-3 ">
+<img src="./images/icon-umberella@2x.png" alt="" srcset="">
+<p id="humidaty">20%</p>
+
+  </div>
+
+  <div class="d-flex me-3">
+<img src="./images/icon-wind@2x.png" alt="" srcset="">
+<p id="wind">18 km/h</p>
+
+  </div>
+
+  <div class="d-flex me-3">
+<img src="./images/icon-compass@2x.png" alt="" srcset="">
+<p id="wind-dir">East</p>
+
+  </div>
+
+
+
+</div>
+
+  </div>
+
+</div>
+
+
+
+</div>
+<!-- ------next-day----------------- -->
+
+<div class="col-md-4 text-center  ">
+
+
+  <div class="weather-next-day">
+    <div class="middle-card-tit py-2 px-3">
+    <p class="tomorrow-date">Monday</p>
+  </div>
+
+  
+  <div class="middle-card py-4 item">
+<img  class="next-condation-image" src="./images/113.png" alt="" srcset="">
+<h3>
+<span class="fs-1 fw-bolder">
+<span class="today-max-temp">17</span>
+<span><sup>o</sup>c</span>
+</span>
+</h3>
+<h5>
+<span class=" ">
+<span class="today-min-temp">8</span>
+<span><sup>o</sup>c</span>
+</span>
+</h5>
+<p class="next-condation-text text">Patchy rain possible</p>
+
+  </div> 
+  </div>
+ 
+
+
+    
+</div>
+
+<div class="col-md-4  text-center   ">
+
+  <div class="wearther-next-day">
+
+ <div class="card-tit py-2 px-3 rounded-end">
+    <p class="tomorrow-date">Monday</p>
+  </div>
+
+  
+  <div class="card-color py-4 item rounded-end">
+<img  class="next-condation-image"   src="./images/113.png" alt="">
+<h3>
+<span class="fs-1 fw-bolder">
+<span class="today-max-temp">17</span>
+<span><sup>o</sup>c</span>
+</span>
+</h3>
+<h5>
+<span class=" ">
+<span class="today-min-temp">8</span>
+<span><sup>o</sup>c</span>
+</span>
+</h5>
+<p class="next-condation-text text ">Patchy rain possible</p>
+
+  </div>
+
+  </div>
+ 
+
+
+    
+</div>
+</div>
+
+</div>
+  </div>
+<!-- ---------------footer-------- -->
+
+
+<footer class="    second-color p-5  ">
+<div class="container p-5">
+
+  <div class="row">
+<div class="col-md-8">
+
+ <div class=" m-auto position-relative p-5">
+          <input
+            type="text"
+            placeholder="Find your location ..."
+            id="input-location"
+          />
+          <input type="button" value="Find" id="suscribe" class="btn btn-danger" />
+        </div>
+  <p class="text-white pt-3 ms-5 ps-3">
+   Copyright 2014 Company name. Designed by Themezy. All rights reserved
+
+  </p>
+
+</div>
+
+  </div>
+
+
+
+
+</div>
+
+
+</footer>
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
